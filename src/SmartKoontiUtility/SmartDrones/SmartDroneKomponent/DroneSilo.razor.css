@@ -1,0 +1,6 @@
+﻿.my-komponentti {
+    border: 2px dashed yellow;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

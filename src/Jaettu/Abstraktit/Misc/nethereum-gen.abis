@@ -1,0 +1,6 @@
+[
+   "node_modules/@eveworld/mud-contracts/core-v2/out/IWorld.sol/IWorld.abi.json",
+    "node_modules/@eveworld/mud-contracts/smart-object-framework-v2/out/SmartObjectFramework.sol/SmartObjectFramework.abi.json",
+    "node_modules/@eveworld/mud-contracts/smart-object-framework-v2/out/IWorld.sol/IWorld.abi.json",
+    "node_modules/@eveworld/mud-contracts/world-v2/out/world/IWorld.sol/IWorld.abi.json"
+]

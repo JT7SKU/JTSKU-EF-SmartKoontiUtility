@@ -1,0 +1,55 @@
+<Solution>
+  <Folder Name="/Jaettu/">
+    <Project Path="../Jaettu/Abstraktit/Abstraktit.csproj" />
+    <Project Path="../Jaettu/Infra/Infra.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/">
+    <Project Path="../MaailmaKontrakitUtility/MaailmaKetkuKontraktit/MaailmaKetkuKontraktit.AppHost/MaailmaKetjuKontraktit.AppHost.csproj" />
+    <Project Path="../MaailmaKontrakitUtility/MaailmaKetkuKontraktit/MaailmaKetkuKontraktit.ServiceDefaults/MaailmaKetjuKontraktit.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/Mud/" />
+  <Folder Name="/MaailmaKontraktit/Mud/Keskus/">
+    <Project Path="../MaailmaKontrakitUtility/KeskusV2/KeskusV2.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/Mud/Maailma/">
+    <Project Path="../MaailmaKontrakitUtility/MaailmaV2/MaailmaV2.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/Mud/SOF/">
+    <Project Path="../MaailmaKontrakitUtility/SofV2/SofV2.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/Standardi/">
+    <Project Path="../MaailmaKontrakitUtility/StandardKontraktitV2/StandardKontraktitV2.csproj" />
+  </Folder>
+  <Folder Name="/MaailmaKontraktit/Testit/">
+    <Project Path="../MaailmaKontrakitUtility/MaailmanKetjuKontraktit.Tests/MaailmanKetjuKontraktit.Tests.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/">
+    <Project Path="../SmartKoontiUtility/SmartKoontiUtilityAspire/SmartKoontiUtility.AppHost/SmartKoontiUtility.AppHost.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartKoontiUtilityAspire/SmartKoontiUtility.ServiceDefaults/SmartKoontiUtility.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartDrones/">
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneKomponent/SmartDroneKomponent.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneGate/" />
+  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneStorage/" />
+  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneUnit/">
+    <Project Path="../SmartKoontiUtility/SmartDrones/Smart-Drone-Unit/SmartDroneUnitKontrakti.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneUnitAPI/SmartDroneUnitAPI.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneUnitService/SmartDroneUnitService.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartGates/">
+    <Project Path="../SmartKoontiUtility/SmartGates/Smart-Gate/SmartGateKontrakti.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartGates/SmartGateApi/SmartGateApi.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartGates/SmartGateService/SmartGateService.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartStorageUnits/">
+    <Project Path="../SmartKoontiUtility/SmartStorageUnits/Smart-Storage-Unit/SmartStorageUnitKontrakti.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartStorageUnits/SmartStorageUnitApi/SmartStorageUnitApi.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartStorageUnits/SmartStorageUnitService/SmartStorageUnitService.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartTurrets/">
+    <Project Path="../SmartKoontiUtility/SmartTurrets/Smart-Turret/SmartTurretKontrakti.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartTurrets/SmartTurretApi/SmartTurretApi.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartTurrets/SmartTurretService/SmartTurretService.csproj" />
+  </Folder>
+</Solution>

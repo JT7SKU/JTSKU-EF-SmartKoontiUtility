@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Smart_Turret</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <PackageReference Include="Lombiq.NodeJs.Extensions" Version="2.2.0" />
+    
+    <PackageReference Include="Nethereum.Mud" Version="5.0.0" />
+    <PackageReference Include="Nethereum.Mud.Contracts" Version="5.0.0" />
+    <PackageReference Include="Nethereum.Web3" Version="5.0.0" />
+    <PackageReference Include="Nethereum.Autogen.ContractApi" Version="4.29.0" />
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="9.2.1" />
+  </ItemGroup>
+</Project>

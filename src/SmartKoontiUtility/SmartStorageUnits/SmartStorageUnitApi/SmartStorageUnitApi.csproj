@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="9.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
+    <PackageReference Include="Nethereum.Web3" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\..\..\Jaettu\Infra\Infra.csproj" />
+    
+    <ProjectReference Include="..\..\SmartKoontiUtilityAspire\SmartKoontiUtility.AppHost\SmartKoontiUtility.AppHost.csproj" />
+    
+    <ProjectReference Include="..\Smart-Storage-Unit\SmartStorageUnitKontrakti.csproj" />
+    
+  </ItemGroup>
+
+</Project>

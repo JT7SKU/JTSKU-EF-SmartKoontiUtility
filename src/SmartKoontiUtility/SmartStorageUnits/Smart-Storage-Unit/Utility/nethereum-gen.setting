@@ -1,0 +1,21 @@
+﻿{
+  
+  "projectname": "JT7SKU.Kontraktit.SmartStorageUnit",
+  "namespace": "test",
+  "tables": {
+    "RatioConfig": {
+      "schema": {
+        "smartobjectId": "uint256",
+        "itemIn": "uint256",
+        "itemOut": "uint256",
+        "ratioIn": "uint256",
+        "ratioOut": "uint256"
+      },
+      "key": [ "smartobjetId", "itemIn" ]
+    }
+  },
+  "lang": 0,
+  "autoCodegen": true,
+  "projectPath": "."
+
+}

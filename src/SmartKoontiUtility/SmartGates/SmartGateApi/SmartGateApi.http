@@ -1,0 +1,6 @@
+@SmartGateApi_HostAddress = http://localhost:5262
+
+GET {{SmartGateApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
