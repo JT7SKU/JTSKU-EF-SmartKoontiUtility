@@ -5,13 +5,19 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = DistributedApplication.CreateBuilder(args);
+        var pg = builder.AddPostgres("postgress").WithDataVolume();
+        var klusteritable = pg.AddDatabase("klustering");
+        var ryyniVarasto = pg.AddDatabase("ryynit");
+        var muistutusTable = pg.AddDatabase("muistutusvarasto");
+        var striimausVarasto = pg.AddDatabase("striimausvarasto");
+        var striimausLinjasto = pg.AddDatabase("striimauslinjasto");
 
-        //var klusteritable = "";
-
-        var orleans = builder.AddOrleans("orleans").WithClusterId("thing");
-            //.WithClustering(klusteritable)
-            //.WithGrainStorage(name:"default", provider: null ).WithGrainStorage(name:"streamingstorage", provider: null)
-            //.WithStreaming("streamingprovider");
+        var orleans = builder.AddOrleans("orleans")
+            .WithClusterId("thing").WithClustering(klusteritable)
+            .WithReminders(muistutusTable)
+            .WithGrainStorage("default",ryyniVarasto)
+            .WithGrainStorage("striimausVault",striimausVarasto)
+            .WithStreaming("streamingprovider",striimausLinjasto);
 
 
         builder.AddProject<Projects.SmartDroneUnitAPI>("smartdroneunitapi")
