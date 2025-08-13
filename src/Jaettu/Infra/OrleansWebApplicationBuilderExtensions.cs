@@ -14,7 +14,7 @@ namespace Microsoft.AspNetCore.Builder
         public static WebApplicationBuilder AsOrleansSilo(this WebApplicationBuilder builder,
             Action<ISiloBuilder>? siloBuilderCallback = null)
         {
-            var Invariant "NpSQL"
+            var Invariant = "NpSQL";
            builder.AddKeyedNpgsqlDataSource("klustering");
             builder.AddKeyedNpgsqlDataSource("ryyniTila");
             
@@ -44,8 +44,8 @@ namespace Microsoft.AspNetCore.Builder
 
         public static WebApplicationBuilder AsOrleansAsiakas(this WebApplicationBuilder builder)
         {
-            var Invariant "NpSQL";
-            var KlusteriAsiakas = builder.AddNpgsqlDbContext();
+            var Invariant = "NpSQL";
+            builder.AddKeyedNpgsqlDataSource("klustering");
 
             /*builder.AddKeyedAzureTableClient("clustering");*/
             builder.UseOrleansClient(asiakas =>
