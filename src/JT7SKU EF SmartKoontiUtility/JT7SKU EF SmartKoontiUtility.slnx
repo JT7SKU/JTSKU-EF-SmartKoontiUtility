@@ -30,8 +30,12 @@
   <Folder Name="/SmartKoontiUtility/SmartDrones/">
     <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneKomponent/SmartDroneKomponent.csproj" />
   </Folder>
-  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneGate/" />
-  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneStorage/" />
+  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneGate/">
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneGate/SmartDroneGateApi/SmartDroneGateApi.csproj" />
+  </Folder>
+  <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneStorage/">
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneStorage/SmrtDroneStorageApi/SmrtDroneStorageApi.csproj" />
+  </Folder>
   <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneUnit/">
     <Project Path="../SmartKoontiUtility/SmartDrones/Smart-Drone-Unit/SmartDroneUnitKontrakti.csproj" />
     <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneUnitAPI/SmartDroneUnitAPI.csproj" />
