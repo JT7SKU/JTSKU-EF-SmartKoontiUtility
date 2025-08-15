@@ -29,11 +29,17 @@
   </Folder>
   <Folder Name="/SmartKoontiUtility/SmartDrones/">
     <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneKomponent/SmartDroneKomponent.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDrones/SmartDrones.AppHost/SmartDrones.AppHost.csproj" Id="fb69d44b-b861-415c-a55c-2f1f146830af" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDrones/SmartDrones.ServiceDefaults/SmartDrones.ServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneGate/">
     <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneGate/SmartDroneGateApi/SmartDroneGateApi.csproj" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneGate/SmartDroneGateKontrakti/SmartDroneGateKontrakti.csproj" Id="be31eb6f-bbf4-4ec4-ab86-2d8f4c88c182" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneGate/SmartDroneGateService/SmartDroneGateService.csproj" Id="563ac01e-683e-46e0-9c02-5a79c447b01b" />
   </Folder>
   <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneStorage/">
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneStorage/SmartDroneStorageKontrakti/SmartDroneStorageKontrakti.csproj" Id="92cfdd46-6c72-453d-9144-8c1abe11503a" />
+    <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneStorage/SmartDroneStorageService/SmartDroneStorageService.csproj" Id="4998c3b9-8d4a-492e-bb3e-662c6de168f6" />
     <Project Path="../SmartKoontiUtility/SmartDrones/SmartDroneStorage/SmrtDroneStorageApi/SmrtDroneStorageApi.csproj" />
   </Folder>
   <Folder Name="/SmartKoontiUtility/SmartDrones/SmartDroneUnit/">
