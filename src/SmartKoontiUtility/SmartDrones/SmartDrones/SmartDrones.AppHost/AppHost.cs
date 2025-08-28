@@ -4,6 +4,8 @@ internal class Program
     {
         var builder = DistributedApplication.CreateBuilder(args);
 
+
+
         builder.Build().Run();
     }
 }
